@@ -1,0 +1,36 @@
+.uploadimage{
+    display: flex;
+    flex-direction: column;
+    width:100%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.uploadimage-progress{
+    width: 100%;
+}
+
+.custom-file-upload{
+    cursor : pointer;
+}
+
+.uploadimage-caption{
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* .uploadimage-progress{
+    height: 45px;
+} */
+
+.custom-file-upload{
+    margin-bottom: 5px;
+}
+
+.uploadimage-postit{
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,38 +1,73 @@
-.App {
+*{
+  margin : 0;
+}
+.app{
+  background-color: #fafafa;
+  height:100vh;
+}
+.app-post{
+  padding:30px;
+}
+.app-header{
+  position: sticky;
+  z-index: 1;
+  top:0;
+  object-fit: contain;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  display:flex;
+  justify-content:space-between;
+}
+.app-header-image{
+  object-fit:contain;
+  margin-left: 25px;
+}
+
+.app-signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app-aboutme{
+
+  width: 100%;
+  background-color: rgba(252, 222, 222, 0.712);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.app-contactme-logo{
+  padding : 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-contactme-logo-url{
+  margin-right : 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-aboutme-1{
+  text-align: center;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-aboutme-0{
+  border : 2px solid lightgray;
 }
 
-.App-link {
-  color: #61dafb;
+.app-contactme-0{
+  border-left : 2px solid lightgray;
+  border-right : 2px solid lightgray;
+  border-bottom : 2px solid lightgray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-aboutme-2{
+  padding:20px;
+  text-align: justify;
+}
+.app-contactme{
+  margin-top: 10px;
+  text-align: center;
+  
 }
