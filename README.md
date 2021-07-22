@@ -12,4 +12,4 @@ The Data base is handeled using Google Firebase.
 4.] User can comment on any of the post they want.  
 
 
-#Project is available at:- https://instagram-clone-189.web.app/
+
